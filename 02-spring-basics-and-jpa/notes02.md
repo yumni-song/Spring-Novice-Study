@@ -62,9 +62,11 @@ Understanding this is important when debugging unexpected configurations.
 **Presentation Layer**
 - Handles HTTP requests.
 - Implemented by Controllers.
+
 **Business Layer**
 - Contains business logic.
 - Implemented by Services.
+
 **Persistence Layer** 
 - Handles database operations.
 - Implemented by Repositories.
@@ -234,7 +236,7 @@ public class Member {
     }
 }
 ```
-MemberRepository.java
+- MemberRepository.java
 ```java
 public interface MemberRepository extends JpaRepository<Member, Long> {
     Optional<Member> findByName(String name);
