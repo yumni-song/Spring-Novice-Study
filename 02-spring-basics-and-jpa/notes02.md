@@ -43,7 +43,7 @@ Developers can use different underlying technologies in a unified way.
 ### Spring Boot Starters
 - **Spring Boot Starter**: A dependency bundle that simplifies configuration.
 Naming convention: spring-boot-starter-{type}
-- Common starters: spring-boot-starter-web, spring-boot-starter-test, spring-boot-starter-validation, spring-boot-starter-actuator, spring-boot-starter-data-jpa
+- **Common starters**: spring-boot-starter-web, spring-boot-starter-test, spring-boot-starter-validation, spring-boot-starter-actuator, spring-boot-starter-data-jpa
 
 ### Auto Configuration
 Spring Boot automatically configures the application at startup by reading configuration metadata.
