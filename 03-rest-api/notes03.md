@@ -1,6 +1,6 @@
 # REST API
 
-## API와 RESTful API
+## API & RESTful API
 - **API(Application Programming Interface)**: An interface that delivers a client's request to the server and returns the server's response back to the client.
 - **RESTful API**: REST (Representational State Transfer) is an architectural style where resources are identified by names and their state is transferred between client and server.
 It focuses on proper URL design.
