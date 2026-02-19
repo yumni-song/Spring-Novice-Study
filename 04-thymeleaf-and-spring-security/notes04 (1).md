@@ -295,7 +295,7 @@ if (modifyButton) {
 }
 ```
 
-### IImplement Create Logic
+### Implement Create Logic
 - article.js
 ```js
 // Element with id="create-btn"
