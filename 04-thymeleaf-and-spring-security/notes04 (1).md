@@ -298,9 +298,9 @@ if (modifyButton) {
 ### IImplement Create Logic
 - article.js
 ```js
-// id가 create-btn인 엘리먼트
+// Element with id="create-btn"
 const createButton = document.getElementById("create-btn");
-// 클릭 이벤트가 감지되면 생성 API 요청
+// Send a create API request when a click event is detected
 if (createButton) {
     createButton.addEventListener("click", (event) => {
         fetch("/api/articles", {
